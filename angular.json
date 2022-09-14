@@ -146,7 +146,7 @@
       "prefix": "",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-ng-packagr:build",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "projects/angular-jwt/tsconfig.lib.json",
             "project": "projects/angular-jwt/ng-package.json"
@@ -180,5 +180,8 @@
       }
     }
   },
-  "defaultProject": "angular2-jwt"
+  "defaultProject": "angular2-jwt",
+  "cli": {
+    "analytics": "b1d2a689-40e7-483e-9ddc-1f2f27bbd9dd"
+  }
 }

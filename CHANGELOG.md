@@ -1,5 +1,9 @@
 # Change log
 
+## Version [5.99.0](https://github.com/MumiaIrrequieta/angular2-jwt/tags/v5.99.0)
+
+- Update to ES2020
+
 ## Version [5.0.2](https://github.com/auth0/angular2-jwt/tags/v5.0.2)
 
 [Full Changelog](https://github.com/auth0/angular2-jwt/compare/v5.0.1..v5.0.2)

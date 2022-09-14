@@ -5,19 +5,19 @@
     "downlevelIteration": true,
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
-    "declaration": false,
-    "module": "esnext",
-    "moduleResolution": "node",
+    "declaration": true,
+    "module": "ES2020",
+    "moduleResolution": "Node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "esModuleInterop": true,  // Enable support for importing CommonJS modules targeting es6 modules
+    // When using above interop will get missing default export error from type check since
+    // modules use "export =" instead of "export default", enable this to ignore errors.
+    // "allowSyntheticDefaultImports": true
     "importHelpers": true,
-    "target": "es2015",
+    "target": "ES2020",
     "typeRoots": [
       "node_modules/@types"
-    ],
-    "lib": [
-      "es2018",
-      "dom"
     ],
     "paths": {
       "angular-jwt": [
